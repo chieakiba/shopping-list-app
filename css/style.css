@@ -76,3 +76,12 @@ li:after {
 	float: right;
 }
 
+.grocery-list .items .bought {
+	background-color: #2aadbf;
+	color: white;
+}
+
+.grocery-list .items .deleted {
+	text-decoration: line-through;
+	color: gray;
+}
