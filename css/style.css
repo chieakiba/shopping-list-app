@@ -1,0 +1,26 @@
+.top-navigation {
+	text-align: center;
+	background-color: #2aadbf;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.nav-title {
+	color:#ffd988;
+}
+
+.intro, .items, .add-item {
+	text-align: center;
+}
+
+textarea, button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.add-button {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: block;
+}
