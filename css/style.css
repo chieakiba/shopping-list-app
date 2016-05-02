@@ -25,8 +25,20 @@ textarea, button {
 	display: block;
 }
 
+button {
+	background-color: #ff4334;
+	color: white;
+	border: none;
+	padding: .5em;
+	border-radius: 12px;
+}
+
 .add-button {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	display: block;
+}
+
+.add-item:hover {
+	cursor: pointer;
 }
