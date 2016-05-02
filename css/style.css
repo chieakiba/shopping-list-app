@@ -47,8 +47,17 @@ button {
 
 .list {
 	font-family: "Playfair Display", sans-serif;
+	text-align: center;
 }
 
 .added-items > h3{
 	font-style: italic;
+}
+
+.added-items > h4 {
+	padding: .5em;
+	border: 2px solid #079db2;
+	border-radius: 12px;
+	margin-right: 5em;
+	margin-left: 5em;
 }
