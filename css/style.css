@@ -45,19 +45,23 @@ button {
 	cursor: pointer;
 }
 
-.list {
+.grocery-list {
 	font-family: "Playfair Display", sans-serif;
+}
+
+.added-items {
+	font-style: italic;
 	text-align: center;
 }
 
-.added-items > h3{
-	font-style: italic;
+.grocery-list .items {
+	list-style: none;
+	padding-right: 2.5em;
 }
 
-.added-items > h4 {
+.grocery-list .items > li {
 	padding: .5em;
 	border: 2px solid #079db2;
 	border-radius: 12px;
-	margin-right: 5em;
-	margin-left: 5em;
+	margin: 1em 2em;
 }
