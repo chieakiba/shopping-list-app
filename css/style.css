@@ -3,6 +3,7 @@
 	background-color: #2aadbf;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	font-family: "Vast Shadow", sans-serif;
 }
 
 .nav-title {
@@ -11,6 +12,11 @@
 
 .intro, .items, .add-item {
 	text-align: center;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.intro {
+	font-style: italic;
 }
 
 textarea, button {
