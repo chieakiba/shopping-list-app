@@ -44,3 +44,11 @@ button {
 .add-item:hover {
 	cursor: pointer;
 }
+
+.list {
+	font-family: "Playfair Display", sans-serif;
+}
+
+.added-items > h3{
+	font-style: italic;
+}
