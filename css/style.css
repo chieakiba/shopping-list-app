@@ -1,13 +1,14 @@
 .top-navigation {
 	text-align: center;
-	background-color: #2aadbf;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	font-family: "Vast Shadow", sans-serif;
+	background-color: #eee;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-family: "Yeseva One", sans-serif;
 }
 
 .nav-title {
-	color:#ffd988;
+	color: #2aadbf;
+	text-shadow: 1px 2px #e0e0e0; 
 }
 
 .intro, .items, .add-item {
@@ -16,21 +17,26 @@
 }
 
 .intro {
-	font-style: italic;
+	/*font-style: italic;*/
 }
 
-textarea, button {
+input, button {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	border-radius: 12px;
+}
+
+input {
+	padding: .5em;
+	border: 2px solid #079db2;
 }
 
 button {
-	background-color: #ff4334;
+	background-color: #2aadbf;
 	color: white;
 	border: none;
 	padding: .5em;
-	border-radius: 12px;
 }
 
 .add-button {
