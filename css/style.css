@@ -65,3 +65,14 @@ button {
 	border-radius: 12px;
 	margin: 1em 2em;
 }
+
+li:before {
+	content: "✔";
+	float: left;
+}
+
+li:after {
+	content: "✘";
+	float: right;
+}
+
