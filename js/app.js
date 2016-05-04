@@ -6,4 +6,10 @@ $(document).ready(function() {
 	$('button').click(function() {
 		$('#To-buy').html($('input:text').val());
 	});
+	//append new items to list//
+	$('button').click(function() {
+		var listItem = newItemOnTheList($('input:text').val());
+		$('#To-buy').append(listItem);
+		$('input:text').val("");
+	});
 });
