@@ -49,9 +49,9 @@ button {
 	font-family: "Playfair Display", sans-serif;
 }
 
-.added-items {
-	font-style: italic;
+.grocery-list h3{
 	text-align: center;
+	font-style: italic;
 }
 
 .grocery-list .items {
