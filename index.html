@@ -14,7 +14,7 @@
 	<div class="intro">
 		<h3>What would you like to put in your cart?</h3>
 	</div>
-	<div class="input">
+	<div id="entry">
 		<input type="text"></input>
 	</div>
 	<div class="add-button">
@@ -23,7 +23,7 @@
 	<section class="grocery-list">
 		<h3 class="added-items">Your list:</h3>
 		<ul class="items">
-			<li class="buy">Eggs</li>
+			<li class="buy" id="To-buy"></li>
 		</ul>
 		<ul class="items">
 			<li class="bought">Bread</li>
@@ -32,5 +32,7 @@
 			<li class="deleted">Cereal</li>
 		</ul>
 	</section>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
