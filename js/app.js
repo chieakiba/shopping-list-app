@@ -1,10 +1,13 @@
 $(document).ready(function() {
+	//hide h3 in grocery-list section when item is not yet entered
 	$('#addedItems').hide();
+	$('#boughtItems').hide();
+	$('#deletedItems').hide();
 	//enable the "Add item" button to add items to list and append new items to list//
 	$('button').click(function() {
-		$('#addedItems').show();
 		var value = $('input:text').val();
 		if (value != "") {
+			$('#addedItems').show();
 			$('#buy').append("<li>" + value + "</li>");
 			$('input:text').val("");
 		}
