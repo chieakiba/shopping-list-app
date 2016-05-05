@@ -67,13 +67,13 @@ button {
 }
 
 li:before {
-	content: "✔";
+	content: "\2713";
 	float: left;
 	cursor: pointer;
 }
 
 li:after {
-	content: "✘";
+	content: "\2718";
 	float: right;
 	cursor: pointer;
 }
