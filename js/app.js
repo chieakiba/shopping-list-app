@@ -8,21 +8,23 @@ $(document).ready(function() {
         var value = $('input:text').val();
         if (value != "") {
             $('#addedItems').show();
-            var item = "<li data-item-name='"+ value +"'><a class='checkButton' href='#'><span class='check'></span></a>" + value + "<a class='checkButton' href='#'><span class='cross'></span></a></li>"
+            var item = "<li class='item' data-item-name='" + value + "'><a class='checkButton' href='#'><span class='check'></span></a>" + value + "<a class='checkButton' href='#'><span class='cross'></span></a></li>"
             $('#buy').append(item);
             $('input:text').val("");
-            $('.checkButton').on("click", function(e) {
-                e.preventDefault();
+            //once clicked the checkmark, move the item to the Bought section ("<li>" + item + "</li>")
+            $('.checkButton').click(function() {
                 $('#boughtItems').show();
-                $(item).remove();
-                $(item).appendTo('#bought');
+                var itemBought = $('.item').clone();
+                $(itemBought).appendTo('#bought');
             });
+            //once clicked the x mark, move the item to the Deleted section
+            
         } else {
             alert("Please enter an item");
         }
     });
-    //once clicked the checkmark, move the item to the Bought section ("<li>" + item + "</li>")
+    
 
-    //once clicked the x mark, move the item to the Deleted section
+    
 
 });

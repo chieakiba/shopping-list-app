@@ -78,12 +78,12 @@ button {
 	cursor: pointer;
 }
 
-.grocery-list .items .itemBought {
+.grocery-list #bought li {
 	background-color: #2aadbf;
 	color: white;
 }
 
-.grocery-list .items .itemRemoved {
+.grocery-list #removed li {
 	text-decoration: line-through;
 	color: gray;
 }
