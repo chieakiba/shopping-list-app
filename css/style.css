@@ -66,13 +66,13 @@ button {
 	margin: 1em 2em;
 }
 
-li:before {
+.check::before {
 	content: "\2713";
 	float: left;
 	cursor: pointer;
 }
 
-li:after {
+.cross::after {
 	content: "\2718";
 	float: right;
 	cursor: pointer;
