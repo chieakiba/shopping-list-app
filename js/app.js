@@ -27,8 +27,4 @@ $(document).ready(function() {
             alert("Please enter an item");
         }
     });
-    
-
-    
-
 });

@@ -54,16 +54,16 @@ button {
 	font-style: italic;
 }
 
-.grocery-list .items {
+.grocery-list .item {
 	list-style: none;
-	padding-right: 2.5em;
 }
 
-.grocery-list .items > li {
+.grocery-list li {
 	padding: .5em;
 	border: 2px solid #079db2;
 	border-radius: 12px;
 	margin: 1em 2em;
+	text-align: center;
 }
 
 .check::before {
